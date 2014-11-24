@@ -11,7 +11,7 @@ How to install python2.7 and pip:
 
 How to install requirements:
 	1. Open terminal
-	2. Navigate: $ cd <yourpath>/ISLA_thalis
+	2. Navigate: $ cd <yourpath>/ISLA-Thalis
 	3. Run: pip install -r requirements.txt
 
 Example:
