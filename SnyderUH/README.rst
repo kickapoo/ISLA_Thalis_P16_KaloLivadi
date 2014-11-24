@@ -1,5 +1,5 @@
 class SnyderUH
-	calcaluation of Snyder Unit Hydrograph
+	Snyder Unit Hydrograph calculation
 
 Requirements:
 	1. Python 2.7
@@ -18,3 +18,5 @@ Example:
 	1. Open terminal
 	2. Navigate: $ cd <yourpath>/ISLA_thalis/SnyderUH
 	3. Run: python example_UH_Mykonos.py 
+
+For more details contact: Anastasiadis Stavros, anastasiadis.st00@gmail.com
