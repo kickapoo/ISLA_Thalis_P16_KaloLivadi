@@ -11,12 +11,20 @@ How to install python2.7 and pip:
 
 How to install requirements:
 	1. Open terminal
-	2. Navigate: $ cd <yourpath>/ISLA-Thalis
-	3. Run: pip install -r requirements.txt
+	2. Navigate::
+	
+		$ cd <yourpath>/ISLA-Thalis
+	3. Run::
+		
+		$ pip install -r requirements.txt
 
 Example:
 	1. Open terminal
-	2. Navigate: $ cd <yourpath>/ISLA_thalis/SnyderUH
-	3. Run: python example_UH_Mykonos.py 
+	2. Navigate::
+	
+		$ cd <yourpath>/ISLA_thalis/SnyderUH
+	3. Run::
+	
+		$ python example_UH_Mykonos.py 
 
 For more details contact: Anastasiadis Stavros, anastasiadis.st00@gmail.com
