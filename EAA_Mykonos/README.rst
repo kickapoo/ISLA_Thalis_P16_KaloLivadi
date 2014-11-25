@@ -1,5 +1,5 @@
 =====================
-TSAnalysis_Mykonos.py
+TSAnalysis.py
 =====================
 
 Requirements:
@@ -19,6 +19,6 @@ How to install requirements:
 How to run TSAnalysis:
 	1. Open terminal
 	2. Navigate: $ cd <yourpath>/ISLA_thalis/EAA_Mykonos
-	3. Run: python TSAnalysis_Mykonos.py 
-
+	3. Run: python TSAnalysis.py 
+	4. View results: <yourpath>/ISLA_thalis/EAA_Mykonos/results
 For more details contact: Anastasiadis Stavros, anastasiadis.st00@gmail.com
