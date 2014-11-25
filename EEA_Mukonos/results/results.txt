@@ -1,0 +1,114 @@
+Timeseries Analysis of Meteorological Station Mykonos(meteo.gr)
+
+Raw Dataset is provided        from Kostas Lagouvardos <lagouvar@meteo.noa.gr>
+
+TS_analysis_Mykonos.py was originally written by        Anastasiadis Stavros,<anastasiadis.st00@gmail.com>
+
+Copyright (C) 2013 - 2014 University of the Aegean
+
+TS_analysis_Mykonos.ipynb script is free script:
+you can redistribute it and/or modify it under the
+terms of the GNU General Public License,
+as published by the Free Software Foundation;
+either version 3 of the License, or (at your option) any later version.
+This script is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the
+implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the licenses for more details. http://www.gnu.org/licenses/.
+----------------
+Primary  Raw dataset Information
+-------------
+Dataset Time Period: 2008-06-30 00:10:00 to 2013-12-31 23:50:00 
+-------------
+Number of Missing Values: Temp:26073/289583 -  Rain:26073/289583 ,
+         check your  ./MissingValuesLog.csv
+         for more date details
+
+-------------
+Descriptive statistics:
+                 temp           rain
+count  263510.000000  263510.000000
+mean       19.190018       0.007711
+std         5.444816       0.145898
+min         2.200000       0.000000
+25%        15.100000       0.000000
+50%        19.200000       0.000000
+75%        23.900000       0.000000
+max        34.900000      35.400000
+
+Last  Rainfall Record 2013-12-29 08:40:00 with Amount 0.2
+
+-------------
+Monthly TS Analysis
+Descriptive statistics:
+              rain       temp
+count   67.000000  67.000000
+mean    30.325373  19.051311
+std     36.215112   4.982447
+min      0.000000  10.539756
+25%      0.200000  14.109185
+50%     12.800000  18.724574
+75%     56.900000  24.090894
+max    182.200000  27.562506
+----------------
+Annual TS Analysis
+Descriptive statistics:
+              rain       temp
+count    6.000000   6.000000
+mean   338.633333  19.284037
+std    102.852548   0.791554
+min    151.800000  18.206463
+25%    323.150000  18.827919
+50%    358.400000  19.271128
+75%    389.900000  19.695660
+max    451.400000  20.438153
+----------------
+----------------
+Potential Evapotranspiration Monthly Calculations
+Descriptive statistics (Monthly):
+ count    67.000000
+mean      5.224300
+std       1.169205
+min       3.604820
+25%       4.153588
+50%       4.885773
+75%       6.255206
+max       7.679219
+dtype: float64
+----------------
+Descriptive statistics (Annual):
+ count    6.000000
+mean     5.283493
+std      0.177955
+min      4.961123
+25%      5.242464
+50%      5.335325
+75%      5.414624
+max      5.416615
+dtype: float64
+----------------
+Rain Events
+----------------
+                 finish   max       mean  min               start    sum  \
+303 2011-02-03 22:40:00  11.6   1.229885  0.2 2011-02-03 05:20:00  107.0   
+631 2013-12-29 08:40:00  35.4  10.450000  0.2 2013-12-29 07:50:00   41.8   
+308 2011-02-18 22:10:00  10.2   2.226667  0.2 2011-02-18 19:40:00   33.4   
+119 2009-04-06 11:00:00   2.0   0.421053  0.2 2009-04-05 14:00:00   32.0   
+199 2010-02-07 08:40:00   3.8   0.658333  0.2 2010-02-06 23:40:00   31.6   
+145 2009-12-02 14:10:00   6.0   1.900000  0.2 2009-12-02 11:40:00   30.4   
+140 2009-11-08 11:10:00   7.6   1.173913  0.2 2009-11-08 06:30:00   27.0   
+609 2013-11-14 09:20:00  12.4   1.310000  0.2 2013-11-14 04:50:00   26.2   
+613 2013-11-22 06:10:00   3.4   0.552174  0.2 2013-11-21 18:10:00   25.4   
+24  2008-12-18 15:10:00   8.0   2.033333  0.2 2008-12-18 12:40:00   24.4   
+
+     duration  
+303  17:20:00  
+631  00:50:00  
+308  02:30:00  
+119  21:00:00  
+199  09:00:00  
+145  02:30:00  
+140  04:40:00  
+609  04:30:00  
+613  12:00:00  
+24   02:30:00  
