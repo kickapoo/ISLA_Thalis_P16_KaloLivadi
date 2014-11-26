@@ -58,6 +58,13 @@ print "-------------"
 print """Number of Missing Values: Temp:{}/{} -  Rain:{}/{} ,
          check your  ./MissingValuesLog.csv
          for more date details\n""".format(ms_temp, len(df.index), ms_rain, len(df.index))
+print "Missing Values of raw dataset"
+data = df.resample('10min', how='sum')
+empty = data.apply(lambda col: pd.isnull(col))
+missing = empty[empty == True]
+missing.describe()
+mdata = missing.groupby([lambda x: x.year]).agg('count')
+print mdata
 print "-------------"
 print "Descriptive statistics:{} {}".format("\n", df.describe())
 print "\nLast  Rainfall Record {} with Amount {}\n".format(df.index[df.rain > 0][-1], df.rain[df.rain > 0][-1])
