@@ -20,14 +20,12 @@ def myplot(x, y, title, ylabel, fig):
 
 
 print "Timeseries Analysis of Meteorological Station Mukonos(meteo.gr)\n"
-print "Raw Dataset is provided \
-       from Kostas Lagouvardos <lagouvar@meteo.noa.gr>\n"
-print "TS_analysis_Mykonos.py was originally written by \
-       Anastasiadis Stavros,<anastasiadis.st00@gmail.com>\n"
+print "Raw Dataset is provided from Kostas Lagouvardos <lagouvar@meteo.noa.gr>\n"
+print "TS_analysis_Mykonos.py was originally written by Anastasiadis Stavros,<anastasiadis.st00@gmail.com>\n"
 
 print "Copyright (C) 2013 - 2014 University of the Aegean\n"
 
-print """TS_analysis_Mukonos.py script is free script:
+print """TS_analysis.py script is free script:
 you can redistribute it and/or modify it under the
 terms of the GNU General Public License,
 as published by the Free Software Foundation;
