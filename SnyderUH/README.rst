@@ -3,6 +3,7 @@ class SnyderUH
 
 Reference: 
 	 S.Lawrence Dingman Physical Hydrology (2nd edition), 
+	 
 	 Waveland Press, ISBN: 978-1-577766-561-8
 
 Requirements:
