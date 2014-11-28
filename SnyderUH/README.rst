@@ -2,7 +2,8 @@ class SnyderUH
 	Snyder Unit Hydrograph calculation
 
 Reference: 
-	S. Lawrence Dingman Physical Hydrology (2nd edition), Waveland Press, ISBN: 978-1-577766-561-8
+	 S.Lawrence Dingman Physical Hydrology (2nd edition), 
+	 Waveland Press, ISBN: 978-1-577766-561-8
 
 Requirements:
 	1. Python 2.7
