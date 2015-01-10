@@ -18,6 +18,7 @@ print mykonosUH.calc()
 # View plot
 mykonosUH.plot()
 
+# Calculate UH & View plot for various rainfall durations
 for item in [0.25,0.5,1,2,3,4]:
 	UH = SnyderUH(name, A, L, Lc, C1, Ct, Cp, item)
 	UH.calc()
